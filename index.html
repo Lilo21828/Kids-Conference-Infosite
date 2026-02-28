@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kiddo Conference 2025 🎉</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ✅ CANVAS for confetti -->
+  <canvas id="confetti-canvas"></canvas>
+
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#home">🌟 Beacon Kids</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home"    class="nav-link active">Home</a></li>
+        <li><a href="#about"   class="nav-link">About</a></li>
+        <li><a href="#theme"   class="nav-link">Theme</a></li>
+        <li><a href="#program" class="nav-link">Program</a></li>
+        <li><a href="#budget"  class="nav-link">Budget</a></li>
+        <li><a href="#safety"  class="nav-link">Safety</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <section id="home" class="hero">
+    <!-- Floating shapes -->
+    <div class="shape shape-circle s1"></div>
+    <div class="shape shape-circle s2"></div>
+    <div class="shape shape-star s3">⭐</div>
+    <div class="shape shape-star s4">🌈</div>
+    <div class="shape shape-circle s5"></div>
+
+    <div class="hero-content reveal">
+      <div class="hero-badge">✨ Exciting Weekend Ahead</div>
+      <h1 class="hero-title">Kiddo<br/><span>Conference</span></h1>
+      <p class="hero-tagline">A fun and life-changing weekend with God! 🙏</p>
+      <p class="hero-desc">
+        Join us for an unforgettable experience filled with worship, learning, laughter, and friendships that last a lifetime. This is the weekend your kids have been waiting for!
+      </p>
+      <div class="hero-meta">
+        <span class="meta-badge">📅 Date:10 October 2026</span>
+        <span class="meta-badge">📍 Location: BAGF Pienaar</span>
+      </div>
+      <a href="#about" class="btn-primary">Learn More 🚀</a>
+    </div>
+
+    <!-- Wave divider -->
+    <div class="wave-bottom">
+      <svg viewBox="0 0 1440 100" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,60 C360,120 1080,0 1440,60 L1440,100 L0,100 Z" fill="#ffffff"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ABOUT SECTION
+  ============================================================ -->
+  <section id="about" class="about section-pad">
+    <div class="container">
+      <div class="section-tag">🎯 Who We Are</div>
+      <h2 class="section-title">About the Conference</h2>
+      <p class="section-desc">
+        Kiddo Conference is a special annual event designed for children in our church family. It's a safe, exciting, and spiritually enriching space where kids encounter God in ways that make a lasting impact on their hearts and lives.
+      </p>
+
+      <div class="about-grid">
+        <div class="about-card reveal">
+          <div class="about-icon">📖</div>
+          <h3>Biblical Lessons</h3>
+          <p>We teach biblical truths in creative, engaging ways that kids can understand and carry with them forever.</p>
+        </div>
+        <div class="about-card reveal">
+          <div class="about-icon">🤝</div>
+          <h3>Build Friendships</h3>
+          <p>Kids from different campuses come together to form bonds of friendship rooted in faith and fun.</p>
+        </div>
+        <div class="about-card reveal">
+          <div class="about-icon">🌟</div>
+          <h3>Memorable Experience</h3>
+          <p>We create church memories that kids will talk about for years — adventure, joy, and the presence of God!</p>
+        </div>
+        <div class="about-card reveal">
+          <div class="about-icon">❤️</div>
+          <h3>Love for Church</h3>
+          <p>Our heart is that every child leaves with a deep love for God, His Word, and His people.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       THEME SECTION
+  ============================================================ -->
+  <section id="theme" class="theme-section">
+
+    <!-- ── BANNER ── -->
+    <div class="theme-banner">
+      <div class="theme-banner-overlay">
+        <div class="theme-banner-inner">
+          <div class="theme-banner-tag">🏗️ Conference Theme 2026</div>
+          <h2 class="theme-banner-title">Rebuilding the Temple</h2>
+          <p class="theme-banner-sub">Vision 2032 — Raising a Jesus Generation</p>
+        </div>
+      </div>
+      <!-- Animated construction "beams" -->
+      <div class="beam b1"></div>
+      <div class="beam b2"></div>
+      <div class="beam b3"></div>
+    </div>
+
+    <!-- ── VISION TEXT ── -->
+    <div class="theme-body">
+      <div class="container">
+        <div class="theme-vision reveal">
+          <div class="vision-icon">⛏️</div>
+          <div class="vision-text">
+            <p class="vision-lead">"Rebuilding the Temple – Vision 2032 is not just a theme. It is a move of God within our Kids Ministry."</p>
+            <p>This vision is about re‑establishing a dynamic, Spirit‑filled Sunday School over the next five to seven years. A place where children do not just attend church, but <strong>encounter Jesus</strong>, grow in identity, and learn how to live out their faith boldly.</p>
+            <p>When we speak about rebuilding the temple, we are not only talking about bricks, classrooms, or structures. We are talking about <strong>people</strong>. More specifically, we are talking about our <strong>children</strong>.</p>
+            <p>In Scripture, the temple was the dwelling place of God. In this season, God is reminding us that His Spirit dwells in people. Our kids are His <strong>living temples</strong>. As we rebuild, we are allowing God to restore foundations, reshape vision, and establish something that will last for generations.</p>
+            <p>We believe God is calling us to raise <strong>Kingdom Builders</strong>. Children who will not only follow Jesus, but reflect His heart. Kids who are dynamic, faith‑filled, and unashamed of the Gospel. A true <strong>Jesus generation</strong>.</p>
+          </div>
+        </div>
+
+        <!-- ── THEME PHOTO GALLERY ── -->
+        <div class="theme-gallery reveal">
+          <img
+            src="images/theme1.png"
+            alt="Rebuilding the Temple – Kids Ministry theme"
+            class="gallery-img tall"
+            onerror="this.style.display='none'"
+          />
+          <img
+            src="images/theme2.png"
+            alt="Kids construction activities"
+            class="gallery-img"
+            onerror="this.style.display='none'"
+          />
+          <img
+            src="images/theme3.png"
+            alt="Building Solomon's Temple children"
+            class="gallery-img"
+            onerror="this.style.display='none'"
+          />
+        </div>
+
+        <!-- ── DRESS CODE ── -->
+        <div class="dressCode-wrap reveal">
+          <div class="dressCode-header">
+            <span class="dressCode-icon">🦺</span>
+            <div>
+              <div class="section-tag" style="margin-bottom:.4rem;">👷 Dress Code</div>
+              <h3 class="dressCode-title">Construction Workers Assemble!</h3>
+            </div>
+          </div>
+          <p class="dressCode-desc">
+            In the spirit of <strong>Rebuilding the Temple</strong>, all kids are invited to come dressed as construction workers! Think hard hats, tool belts, high-vis vests, and boots. Let's look the part as we build something great for God together!
+          </p>
+          <div class="dressCode-items">
+            <div class="dc-item"><span>⛑️</span> Yellow Hard Hat</div>
+            <div class="dc-item"><span>🦺</span> High-Vis Safety Vest</div>
+            <div class="dc-item"><span>👖</span> Cargo Pants / Jeans</div>
+            <div class="dc-item"><span>🥾</span> Work Boots</div>
+            <div class="dc-item"><span>🔧</span> Toy Tool Belt (optional)</div>
+            <div class="dc-item"><span>👕</span> Plain T‑shirt</div>
+          </div>
+
+          <!-- Dress code photos -->
+          <div class="dressCode-photos">
+            <div class="dcp-card">
+              <img
+                src="images/covas.png"
+                alt="Kids construction worker costume"
+                onerror="this.src=''; this.closest('.dcp-card').style.background='var(--yellow-pale)'"
+              />
+              <p>Full Costume Set</p>
+            </div>
+            <div class="dcp-card">
+              <img
+                src="images/kidds kit.png"
+                alt="Construction vest and hat for kids"
+                onerror="this.src=''; this.closest('.dcp-card').style.background='var(--yellow-pale)'"
+              />
+              <p>Hard Hat &amp; Vest</p>
+            </div>
+            <div class="dcp-card">
+              <img
+                src="images/vesthat.png"
+                alt="Kids construction dress up"
+                onerror="this.src=''; this.closest('.dcp-card').style.background='var(--yellow-pale)'"
+              />
+              <p>Dress Up Look</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PROGRAM SECTION
+  ============================================================ -->
+  <section id="program" class="program section-pad">
+    <div class="wave-top">
+      <svg viewBox="0 0 1440 100" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,-20 1080,100 1440,40 L1440,0 L0,0 Z" fill="#ffffff"/>
+      </svg>
+    </div>
+
+    <div class="container">
+      <div class="section-tag">📋 What's Happening</div>
+      <h2 class="section-title">Weekend Program</h2>
+      <p class="section-desc">Two amazing days packed with worship, fun, learning, and unforgettable moments!</p>
+
+      <div class="program-grid">
+        <!-- Saturday -->
+        <div class="program-day reveal">
+          <div class="day-header sat">
+            <span>🌞</span>
+            <h3>Saturday</h3>
+          </div>
+          <div class="timeline">
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <span class="tl-icon">🚗</span>
+                <div>
+                  <strong>Arrival &amp; Registration</strong>
+                  <p>Check in, get your wristband, and meet new friends!</p>
+                </div>
+              </div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <span class="tl-icon">🎵</span>
+                <div>
+                  <strong>Praise &amp; Worship</strong>
+                  <p>Kick off with upbeat, joyful worship music!</p>
+                </div>
+              </div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <span class="tl-icon">📚</span>
+                <div>
+                  <strong>Teaching Sessions</strong>
+                  <p>Engaging messages just for kids — fun, real, and impactful.</p>
+                </div>
+              </div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <span class="tl-icon">🎮</span>
+                <div>
+                  <strong>Games &amp; Activities</strong>
+                  <p>Team games, crafts, and creative activities for all. Kids should carry extra clothes for change.</p>
+                </div>
+              </div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <span class="tl-icon">🎉</span>
+                <div>
+                  <strong>Fun Night</strong>
+                  <p>A special evening event full of surprises and laughter!</p>
+                </div>
+              </div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <span class="tl-icon">😴</span>
+                <div>
+                  <strong>Sleep</strong>
+                  <p>Rest up — tomorrow is another amazing day!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sunday -->
+        <div class="program-day reveal">
+          <div class="day-header sun">
+            <span>☀️</span>
+            <h3>Sunday</h3>
+          </div>
+          <div class="timeline">
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <span class="tl-icon">🥞</span>
+                <div>
+                  <strong>Breakfast</strong>
+                  <p>Start the day with a yummy meal together.</p>
+                </div>
+              </div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <span class="tl-icon">🙏</span>
+                <div>
+                  <strong>Devotion</strong>
+                  <p>A quiet, meaningful morning devotional time with God.</p>
+                </div>
+              </div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <span class="tl-icon">⛪</span>
+                <div>
+                  <strong>Church Service</strong>
+                  <p>A powerful, kid-friendly church experience we'll never forget.</p>
+                </div>
+              </div>
+            </div>
+            <div class="tl-item last">
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <span class="tl-icon">👋</span>
+                <div>
+                  <strong>Departure</strong>
+                  <p>Head home with a full heart and happy memories!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wave-bottom">
+      <svg viewBox="0 0 1440 100" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,60 C360,120 1080,0 1440,60 L1440,100 L0,100 Z" fill="#ffffff"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       BUDGET SECTION
+  ============================================================ -->
+  <section id="budget" class="budget section-pad">
+    <div class="container">
+      <div class="section-tag">💰 Budget Breakdown</div>
+      <h2 class="section-title">Conference Budget</h2>
+      <p class="section-desc">Here's a transparent overview of how we plan to use the funds to make this weekend magical!</p>
+
+      <div class="budget-table-wrap reveal">
+        <table class="budget-table">
+          <thead>
+            <tr>
+              <th>🗂️ Category</th>
+              <th>📝 Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="cat-badge cat-1">🍕 Food</span></td>
+              <td>Meals &amp; snacks for the weekend</td>
+            </tr>
+            <tr>
+              <td><span class="cat-badge cat-2">🎨 Activities</span></td>
+              <td>Games, crafts &amp; materials</td>
+            </tr>
+            <tr>
+              <td><span class="cat-badge cat-3">🎵 Worship</span></td>
+              <td>Sound equipment &amp; music resources</td>
+            </tr>
+            <tr>
+              <td><span class="cat-badge cat-4">🚌 Transport</span></td>
+              <td>Shuttle / travel arrangements</td>
+            </tr>
+            <tr>
+              <td><span class="cat-badge cat-5">🎁 Extras</span></td>
+              <td>Gifts, printing, miscellaneous</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="budget-note reveal">
+        <span>💡</span>
+        <p>All funds are used solely for the benefit of the children attending the conference. Transparency and accountability are our priority.</p>
+      </div>
+
+      <!-- ── PAYMENT ARRANGEMENTS ── -->
+      <div class="payment-section reveal">
+        <div class="section-tag" style="margin-bottom:1rem;">💳 Payment Arrangements</div>
+        <h3 class="payment-title">How to Pay</h3>
+
+        <div class="payment-cards">
+          <!-- Pienaar Campus -->
+          <div class="pay-card pay-campus">
+            <div class="pay-card-icon">🏫</div>
+            <h4>Pienaar Campus Kids</h4>
+            <div class="pay-amount">R200 <span>per child</span></div>
+            <div class="pay-option">
+              <span class="pay-badge">📅 Monthly Option</span>
+              <p>Pay in easy monthly contributions of <strong>R30/month</strong> leading up to the conference.</p>
+            </div>
+          </div>
+          <!-- Visitor -->
+          <div class="pay-card pay-visitor">
+            <div class="pay-card-icon">👋</div>
+            <h4>Visitor Kids</h4>
+            <div class="pay-amount">R50 <span>admin fee only</span></div>
+            <div class="pay-option">
+              <span class="pay-badge">✅ One-Time</span>
+              <p>Visitors only pay a once-off <strong>R50 admin fee</strong> — no further costs!</p>
+            </div>
+          </div>
+          <!-- Due date -->
+          <div class="pay-card pay-deadline">
+            <div class="pay-card-icon">⏰</div>
+            <h4>Payment Deadline</h4>
+            <div class="pay-amount due">27 Sept</div>
+            <div class="pay-option">
+              <span class="pay-badge urgent">🚨 Final Cut-Off</span>
+              <p>All payments must be completed by <strong>27 September 2026</strong>. No late payments will be accepted.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── REGISTRATION NOTICE ── -->
+      <div class="reg-notice reveal">
+        <div class="reg-notice-icon">📋</div>
+        <div class="reg-notice-body">
+          <h4>Registration Required</h4>
+          <p>
+            Registrations will be done for all attending children. <strong>Any child who has not registered AND paid their conference fee by 27 September 2026 will not be permitted to attend.</strong> Please ensure your child is registered and paid up on time to secure their spot!
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SAFETY SECTION
+  ============================================================ -->
+  <section id="safety" class="safety section-pad">
+    <div class="wave-top">
+      <svg viewBox="0 0 1440 100" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,-20 1080,100 1440,40 L1440,0 L0,0 Z" fill="#ffffff"/>
+      </svg>
+    </div>
+
+    <div class="container">
+      <div class="section-tag">🛡️ Your Child Is Safe</div>
+      <h2 class="section-title">Safety First</h2>
+      <p class="section-desc">The safety and wellbeing of every child is our number one priority. We have robust measures in place so parents can have total peace of mind.</p>
+
+      <div class="safety-grid">
+        <div class="safety-card reveal">
+          <div class="safety-icon">👨‍👩‍👧</div>
+          <h3>Adult Supervision</h3>
+          <p>Trained and vetted adult leaders supervise all activities at all times throughout the entire weekend.</p>
+        </div>
+        <div class="safety-card reveal">
+          <div class="safety-icon">🛏️</div>
+          <h3>Separate Sleeping Areas</h3>
+          <p>Boys and girls have completely separate, supervised sleeping areas for privacy and comfort.</p>
+        </div>
+        <div class="safety-card reveal">
+          <div class="safety-icon">🩺</div>
+          <h3>First Aid Kit</h3>
+          <p>A fully stocked first aid kit and a trained first aider are on site throughout the conference.</p>
+        </div>
+        <div class="safety-card reveal">
+          <div class="safety-icon">📞</div>
+          <h3>Emergency Contacts</h3>
+          <p>Parents are given direct emergency contact numbers for immediate communication at any time.</p>
+        </div>
+        <div class="safety-card reveal">
+          <div class="safety-icon">🔒</div>
+          <h3>Secure Environment</h3>
+          <p>The venue is secured and access is controlled — only registered children and approved adults are permitted.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="wave-bottom">
+      <svg viewBox="0 0 1440 100" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,60 C360,120 1080,0 1440,60 L1440,100 L0,100 Z" fill="#ffffff"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT SECTION
+  ============================================================ -->
+  <section id="contact" class="contact section-pad">
+    <div class="container">
+      <div class="section-tag">📬 Reach Out</div>
+      <h2 class="section-title">Contact Us</h2>
+      <p class="section-desc">Got questions? We'd love to hear from you! Reach out and we'll get back to you as soon as possible. 😊</p>
+
+      <div class="contact-grid">
+
+        <!-- ── FORM (Formspree) ── -->
+        <div class="contact-form-wrap reveal">
+          <form
+            class="contact-form"
+            id="contact-form"
+            action="https://formspree.io/f/xbdabvqk"
+            method="POST"
+          >
+            <!-- Hidden field so Formspree knows where to redirect after submit -->
+            <input type="hidden" name="_subject" value="New Kiddo Conference enquiry 🎉" />
+
+            <div class="form-group">
+              <label for="name">👤 Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">📧 Email Address</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">💬 Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="What's on your mind?" required></textarea>
+            </div>
+
+            <!-- Submit button — JS will show loading state, Formspree handles the send -->
+            <button type="submit" class="btn-primary btn-full" id="submit-btn">
+              Send Message 🚀
+            </button>
+          </form>
+        </div>
+
+        <!-- ── CONTACT INFO PANEL ── -->
+        <div class="contact-info reveal">
+          <div class="church-card">
+            <div class="church-icon">⛪</div>
+            <h3>Bethel Assemblies of God Fellowship Pienaar</h3>
+            <p>We are building kids who are going to reflect God's light by knowing Him, loving Him, and share His love with others.</p>
+          </div>
+
+          <!-- Direct contact details -->
+          <div class="contact-details">
+            <a href="tel:0847711221" class="contact-detail-item">
+              <div class="cd-icon">📱</div>
+              <div class="cd-text">
+                <span class="cd-label">Cell Number</span>
+                <span class="cd-value">084 771 1221</span>
+              </div>
+            </a>
+            <a href="mailto:azariasihlangu@gmail.com" class="contact-detail-item">
+              <div class="cd-icon">📧</div>
+              <div class="cd-text">
+                <span class="cd-label">Email Address</span>
+                <span class="cd-value">azariasihlangu@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://wa.me/27847711221" target="_blank" class="contact-detail-item whatsapp">
+              <div class="cd-icon">💬</div>
+              <div class="cd-text">
+                <span class="cd-label">WhatsApp</span>
+                <span class="cd-value">Chat with us on WhatsApp</span>
+              </div>
+            </a>
+          </div>
+
+          <p class="contact-note">📩 We'll reply within 1–2 business days.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="footer-shapes">
+      <div class="fs fs1"></div>
+      <div class="fs fs2"></div>
+    </div>
+    <div class="container footer-inner">
+      <div class="footer-logo">🌟 Kiddo Conference</div>
+      <p class="footer-tagline">A fun and life-changing weekend with God! 🙏</p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#theme">Theme</a>
+        <a href="#program">Program</a>
+        <a href="#budget">Budget</a>
+        <a href="#safety">Safety</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="footer-copy">© 2026 Kiddo Conference. Made with ❤️ for God's kids.</p>
+    </div>
+  </footer>
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast">✅ Message sent! We'll be in touch soon.</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
